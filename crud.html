@@ -1,0 +1,44 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/style_crud.css">
+</head>
+<body>
+
+<div class="header">
+    <p class="cabecalho">
+        <img src="images/icon.png">
+        <h3>GERENCIAMENTO DE TAREFAS</h3>
+    </p>
+</div>
+
+<div class="row">
+     <div class="inputTarefa">
+        <h4>Tarefa:</h4>
+        <input id="tarefa" type="text" placeholder="digite o título da tarefa...">
+     </div>
+     <div class="inputResponsavel">
+        <br>
+        <h4>Responsável:</h4>
+        <input id="responsavel" type="text" placeholder="digite o nome do(a) responsável...">
+     </div>
+     <div class="addTarefa">
+         <br>
+         <input type="button" id="addbtn" onclick="addTarefa()" value="Adicionar">
+     </div>
+</div>
+
+<div class="navegar">
+    <br><br>
+    <a href="index.html">
+        <h5> << Retornar ao Menu</h5>
+    </a>
+</div>
+
+<footer>
+    <p>Desenvolvido por Wellyson Gustavo</p>
+</footer>
+
+<script type="text/javascript" src="js/crud.js"></script>
+
+</body>
+</html>
