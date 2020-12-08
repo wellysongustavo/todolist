@@ -1,0 +1,63 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<div class="header">
+    <p class="cabecalho">
+        <img src="image/icon.png">
+        <h3>GERENCIAMENTO DE TAREFAS</h3>
+    </p>
+</div>
+
+<div class="row">
+    <center>
+    <h4>TAREFAS CONCLUÍDAS</h4>
+    <br>
+    <table id="tablePendentes">
+         <tr>
+            <th>DESCRIÇÃO DA TAREFA</th>
+            <th>RESPONSÁVEL</th>
+            <th>OPÇÕES</th>
+        </tr>
+        <tr>
+            <td class="tdDescricaoConc">Consertar máquina de lavar</td>
+            <td class="tdResponsavelConc">Caio César</td>
+            <td>
+                <button class="BUTTON_AOI2" onclick="removeTarefa(this);">Remover</button>
+            </td>
+        </tr>
+        <tr>
+            <td class="tdDescricaoConc">Lavar banheiro</td>
+            <td class="tdResponsavelConc">Fabíola Alexandre</td>
+            <td>
+                <button class="BUTTON_AOI2">Remover</button>
+            </td>
+        </tr>
+        <tr>
+            <td class="tdDescricaoConc">Ir a academia</td>
+            <td class="tdResponsavelConc">Tyler Durden</td>
+            <td>
+                <button class="BUTTON_AOI2">Remover</button>
+            </td>
+        </tr>
+    </table>
+    </center>    
+</div>
+
+<div class="navegar">
+    <br><br>
+    <a href="index.html">
+        <h5> << Retornar ao Menu</h5>
+    </a>
+</div>
+
+<footer>
+    <p>Desenvolvido por Wellyson Gustavo</p>
+</footer>
+
+<script type="text/javascript" src="script/crud.js"></script>
+
+</body>
+</html>

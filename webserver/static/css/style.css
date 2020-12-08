@@ -1,0 +1,131 @@
+*  {
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-color: lightskyblue;
+    height:100%;
+    width: 100%;
+}
+
+.header {
+    padding-bottom: 1%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho img { 
+    width:5%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.row {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3%;
+}
+
+.navegar {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    padding-bottom: 10px;
+    font-size: 15px;
+    color: gray;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.listaNula {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+}
+
+#tablePendentes { 
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+  
+#tablePendentes td, #tablePendentes th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#tablePendentes td { 
+    background-color: #f2f2f2;
+}
+
+/* #tablePendentes tr:nth-child(even){background-color: #f2f2f2;} */
+
+#tablePendentes tr:hover {background-color: #ddd;}
+
+#tablePendentes th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: cadetblue;
+    color: white;
+}
+
+.BUTTON_AOI {
+    background: #02B10D;
+    background-image: -webkit-linear-gradient(top, #02B10D, #227A10);
+    background-image: -moz-linear-gradient(top, #02B10D, #227A10);
+    background-image: -ms-linear-gradient(top, #02B10D, #227A10);
+    background-image: -o-linear-gradient(top, #02B10D, #227A10);
+    background-image: -webkit-gradient(to bottom, #02B10D, #227A10);
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 10px;
+    font-weight: 200;
+    padding: 8px;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 0;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+
+ .BUTTON_AOI2 {
+    background: #F63D3D;
+    background-image: -webkit-linear-gradient(top, #F63D3D, #D01E1E);
+    background-image: -moz-linear-gradient(top, #F63D3D, #D01E1E);
+    background-image: -ms-linear-gradient(top, #F63D3D, #D01E1E);
+    background-image: -o-linear-gradient(top, #F63D3D, #D01E1E);
+    background-image: -webkit-gradient(to bottom, #F63D3D, #D01E1E);
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 10px;
+    font-weight: 200;
+    padding: 8px;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 0;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
